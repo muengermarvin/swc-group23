@@ -18,13 +18,13 @@ public class Main {
         //Variable die das Scannerobjekt nutzt und nach dem nächsten Int Objekt in der Konsole sucht
         int num1 = scanner.nextInt();
 
-        System.out.println(num1);
+        System.out.println(num1 + "\nGeben Sie die zweite Zahl ein");
 
         int num2 = scanner.nextInt();
 
         System.out.println(num2);
 
-        System.out.println("Sum of sum of "+ num1 +" + "+ num2 +" is "+ sum(num1,num2));
+        System.out.println("Sum of "+ num1 +" + "+ num2 +" is "+ sum(num1,num2));
 
     }
 
