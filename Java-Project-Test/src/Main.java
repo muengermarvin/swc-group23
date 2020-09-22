@@ -13,7 +13,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\nSummer zweier Zahlen \nGeben Sie die erste Zahl ein");
+        System.out.println("\nProgramm: Summer zweier Zahlen \nGeben Sie die erste Zahl ein");
 
         //Variable die das Scannerobjekt nutzt und nach dem nächsten Int Objekt in der Konsole sucht
         int num1 = scanner.nextInt();
