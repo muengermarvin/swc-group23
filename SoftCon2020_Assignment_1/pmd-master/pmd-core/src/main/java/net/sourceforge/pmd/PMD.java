@@ -448,6 +448,7 @@ public class PMD {
      *            command line arguments
      */
     public static void main(String[] args) {
+
         PMDCommandLineInterface.run(args);
     }
 

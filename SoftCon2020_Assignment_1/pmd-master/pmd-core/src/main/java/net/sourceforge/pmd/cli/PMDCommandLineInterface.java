@@ -149,6 +149,7 @@ public final class PMDCommandLineInterface {
     }
 
     public static void run(String[] args) {
+
         setStatusCodeOrExit(PMD.run(args));
     }
 
@@ -171,5 +172,6 @@ public final class PMDCommandLineInterface {
     private static void setStatusCode(int statusCode) {
         System.setProperty(STATUS_CODE_PROPERTY, Integer.toString(statusCode));
     }
+
 
 }
