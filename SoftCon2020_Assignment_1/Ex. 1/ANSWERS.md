@@ -5,7 +5,7 @@
 We chose the PMD.java class and in there the main file as a starting point to our analysis
 
 In the pmd-core folder was no class with a run button so it made sense to take a look in 
-PMD.java class since the program it self is called PMD. In there we found a comment above 
+PMD.java class since the program itself is called PMD. In there we found a comment above 
 the main method that indicated that this was one of the starting points. We double checked 
 for more main methods and found another one in the cpd folder. After a bit of research 
 we found that cpd stands for copy-paste-detector. This must be another feature of the 
