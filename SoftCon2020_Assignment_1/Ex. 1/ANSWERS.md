@@ -1,6 +1,6 @@
 # Exercise 1
 
-![](file:///C:\Users\marvi\Documents\GitHub\swc-group23\SoftCon2020_Assignment_1\Ex.%201\Unbenannt-1.png)
+![](Unbenannt-1.png)
 
 We chose the PMD.java class and in there the main file as a starting point to our analysis
 
@@ -18,7 +18,7 @@ the documentation.
 
 Data Flow Analysis
 
-#1 Class: PMD.java
+1. Class: PMD.java
 	Method: sortFiles
 	
 	The Method receives a final list of DataSources and a final PMDConfiguration 
